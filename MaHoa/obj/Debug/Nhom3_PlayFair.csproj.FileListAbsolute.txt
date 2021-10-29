@@ -1,0 +1,24 @@
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\Nhom3_PlayFair.exe.config
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\Nhom3_PlayFair.exe
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\Nhom3_PlayFair.pdb
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.SuggestedBindingRedirects.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.Properties.Resources.resources
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.UI.Index.resources
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.UI.PlayFair.resources
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.GenerateResource.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.CoreCompileInputs.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.exe
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.pdb
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\Nhom3_PlayFair.exe.config
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\Nhom3_PlayFair.exe
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\Nhom3_PlayFair.pdb
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.AssemblyReference.cache
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.SuggestedBindingRedirects.cache
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.Properties.Resources.resources
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.UI.Index.resources
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.UI.PlayFair.resources
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.GenerateResource.cache
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.CoreCompileInputs.cache
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.exe
+D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.pdb
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.AssemblyReference.cache

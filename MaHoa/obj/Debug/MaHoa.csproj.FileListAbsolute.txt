@@ -1,0 +1,12 @@
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\MaHoa.exe.config
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\MaHoa.exe
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\bin\Debug\MaHoa.pdb
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.csproj.AssemblyReference.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.csproj.SuggestedBindingRedirects.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.Properties.Resources.resources
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.UI.Index.resources
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.UI.PlayFair.resources
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.csproj.GenerateResource.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.csproj.CoreCompileInputs.cache
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.exe
+D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\MaHoa.pdb
