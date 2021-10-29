@@ -1,6 +1,6 @@
 # NT101_Nhom3_PlayFair  
 
-(h1)**English**    
+**English**  
 *Final project of Network security*    
 #Feature*  
    1. Can choose to encrypt or decrypt
