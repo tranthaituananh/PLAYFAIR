@@ -2,11 +2,13 @@
 {
     public static class Alphabet
     {
+        //Trả về vị trí của ký tự
         public static int GetPosition(char Chu_cai)
         {
             return (int)(Chu_cai) - 64;
         }
-
+        
+        //Trả về ký tự
         public static char GetCharacter(int x)
         {
             return (char)(x + 64);
@@ -18,6 +20,7 @@
             return (char)(c + 64);
         }
 
+        //Liệt kê ký tự bảng chữ cái
         public static string Tolist()
         {
             string str = null;

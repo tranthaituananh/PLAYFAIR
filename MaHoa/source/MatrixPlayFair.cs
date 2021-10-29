@@ -5,17 +5,19 @@ namespace MaHoa
 {
     public class MatrixPlayFair : Matrix
     {
-        public MatrixPlayFair(int n_matrix) : base(n_matrix) { }
+        //Tạo ma trận n dòng và n cột dựa trên phương thức khởi tạo kế thừa từ class Matrix
+        public MatrixPlayFair(int n_matrix) : base(n_matrix) { } 
 
+        //Khởi tạo ma trận
         public void CreateMatrix(string key)
         {
             string temp = String.Copy(key);
             var alpha = Alphabet.Tolist();
             var an = alpha + "0123456789";
-            //remove space
+            //Xóa dấu cách
             temp = temp.Replace(" ", "");
             temp = temp.ToUpper();
-            //key don't have contain special character
+            //Key không chứa ký tự đặc biệt
             foreach(char c in temp)
             {
                 if (!an.Contains<char>(c))
@@ -43,9 +45,9 @@ namespace MaHoa
             }
         }
 
+        //Loại bỏ những ký tự giống nhau trong key
         public string RemoveSameCharacter(string key)
         {
-            //remove same character
             int i = 0;
             while (i < key.Length - 1)
             {
@@ -66,6 +68,7 @@ namespace MaHoa
             return key;
         }
 
+        //Trả về tạo độ ký tự I và J
         public Coordinate GetCoordinate(char key)
         {
             key = key.ToString().ToUpper()[0];

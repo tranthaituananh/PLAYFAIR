@@ -14,6 +14,7 @@ namespace MaHoa.UI
             rdbMaHoa.PerformClick();
         }
 
+        //Kiểm tra lựa chọn phương thức của người dùng
         private void radioButtonMethod_CheckedChanged(object sender, EventArgs e)
         {
             var control = ((RadioButton)sender).Name;
@@ -31,6 +32,7 @@ namespace MaHoa.UI
             }
         }
 
+        //Kiểm tra lựa chọn loại ma trận của người dùng
         private void radioButton_CheckedChanged(object sender, EventArgs e)
         {
             //remove old item in matrix
@@ -49,11 +51,12 @@ namespace MaHoa.UI
             playfair = new MaHoa.PlayFair(value);
         }
 
+        //Vẽ ma trận
         private void DrawMatrix(MaHoa.Matrix matrix, bool allowModifier)
         {
-            //remove old item in matrix
+            //Loại bỏ ma trận cũ
             this.groupBox1.Controls.Clear();
-            //show matrix
+            //Hiện thị ma trận
             var X_begin = 7;
             var Y_begin = 19;
             for (int i = 1; i <= matrix.N_matrix; i++)
@@ -77,32 +80,36 @@ namespace MaHoa.UI
             }
         }
 
+        //Hành động click vào button để vẽ ma trận
         private void btnInitMatrix_Click(object sender, EventArgs e)
         {
             try
             {
                 var matrix = playfair.InitMatrix(txtKey.Text);
                 DrawMatrix(matrix, false);
-            }catch(Exception ex)
+            }
+            catch(Exception ex)
             {
                 MessageBox.Show("Error while init matrix with key", "Error", MessageBoxButtons.OK);
             }
         }
 
+        //Hành động click vào button để thực hiện theo phương thức của người dùng đã chọn ở trên
         private void btnExecute_Click(object sender, EventArgs e)
         {
-            if (rdbMaHoa.Checked)
+            if (rdbMaHoa.Checked) //mã hóa
             {
                 try
                 {
                     string result = playfair.Encrypt(txtInput.Text);
                     txtResult.Text = result;
-                }catch(Exception ex)
+                }
+                catch(Exception ex)
                 {
                     MessageBox.Show("Error while encrypt data", "Error", MessageBoxButtons.OK);
                 }
             }
-            else //giai ma
+            else //giải mã
             {
                 try
                 {

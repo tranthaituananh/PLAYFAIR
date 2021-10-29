@@ -6,17 +6,20 @@ namespace MaHoa
     {
         private MatrixPlayFair matrix;
 
+        //Ma trận n dòng n cột
         public PlayFair(int n)
         {
             matrix = new MatrixPlayFair(n);
         }
 
+        //Khởi tạo ma trận dựa trên key
         public MatrixPlayFair InitMatrix(string key)
         {
             matrix.CreateMatrix(key);
             return matrix;
         }
 
+        //Loại bỏ khoảng trắng trong chuỗi
         public string RemoveSpaceInString(string text)
         {
             var temp = String.Copy(text);
@@ -42,19 +45,19 @@ namespace MaHoa
             {
                 value = -1;
             }
-            //check coordinate
+            //Kiểm tra tọa độ
             if (!(dau.I < matrix.N_matrix && dau.I >= 0
                 && dau.J < matrix.N_matrix && dau.J >= 0
                 && cuoi.I < matrix.N_matrix && cuoi.I >= 0
                 && cuoi.J < matrix.N_matrix && cuoi.J >= 0))
                 throw new IndexOutOfRangeException();
             var result = "";
-            if (dau.I == cuoi.I) //same row
+            if (dau.I == cuoi.I) //Cùng dòng
             {
                 result += matrix.Get(dau.I, ((dau.J + value)+ matrix.N_matrix) % matrix.N_matrix);
                 result += matrix.Get(cuoi.I, ((cuoi.J + value) + matrix.N_matrix) % matrix.N_matrix);
             }
-            else if (dau.J == cuoi.J) //same column
+            else if (dau.J == cuoi.J) //Cùng cột
             {
                 result += matrix.Get(((dau.I + value) + matrix.N_matrix) % matrix.N_matrix, dau.J);
                 result += matrix.Get(((cuoi.I + value) + matrix.N_matrix) % matrix.N_matrix, cuoi.J);
@@ -72,14 +75,14 @@ namespace MaHoa
         {
             if (one == ' ' || two == ' ')
                 throw new ArgumentException();
-            //get coordinate of one and two
+            //Lấy tọa độ của cặp ký tự
             Coordinate c_one, c_two;
             c_one = matrix.GetCoordinate(one);
             c_two = matrix.GetCoordinate(two);
             if (c_one == null || c_two == null)
                 throw new ArgumentException();
 
-            //encrypt two character
+            //Mã hóa cặp ký tự
             string result = HoanDoi(c_one, c_two);
             result += " ";
             return result;
@@ -87,7 +90,7 @@ namespace MaHoa
 
         public string Encrypt(string plainText)
         {
-            //remove space 
+            //Xóa dấu cách
             plainText = RemoveSpaceInString(plainText);
 
             if (plainText.Length == 0)
@@ -97,7 +100,7 @@ namespace MaHoa
             {
                 plainText += "X";
             }
-            //split pair two character to encrypt
+            //Tách cặp ký tự để mã hóa
             int i = 0;
             string result = "";
             while(i < plainText.Length)
@@ -113,14 +116,14 @@ namespace MaHoa
         {
             if (one == ' ' || two == ' ')
                 throw new ArgumentException();
-            //get coordinate of one and two
+            //lấy tọa độ của cặp ký tự
             Coordinate c_one, c_two;
             c_one = matrix.GetCoordinate(one);
             c_two = matrix.GetCoordinate(two);
             if (c_one == null || c_two == null)
                 throw new ArgumentException();
 
-            //encrypt two character
+            //Giải mã cặp ký tự
             string result = HoanDoi(c_one, c_two,false);
             result += " ";
             return result;
@@ -128,7 +131,7 @@ namespace MaHoa
 
         public string Decrypt(string plainText)
         {
-            //remove space 
+            //Xóa dấu cách
             plainText = RemoveSpaceInString(plainText);
             if (plainText.Length == 0)
                 throw new ArgumentException("plaintext is empty");
@@ -137,7 +140,7 @@ namespace MaHoa
             {
                 plainText += "X";
             }
-            //split pair two character to encrypt
+            //Tách cặp hai ký tự để giải mã
             int i = 0;
             string result = "";
             while (i < plainText.Length)

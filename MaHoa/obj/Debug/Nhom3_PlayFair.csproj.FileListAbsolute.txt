@@ -21,4 +21,3 @@ D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.cspr
 D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.CoreCompileInputs.cache
 D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.exe
 D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.pdb
-D:\DATA\DOWNLOADS\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.AssemblyReference.cache
