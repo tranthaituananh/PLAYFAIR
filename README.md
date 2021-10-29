@@ -2,7 +2,7 @@
 
 **English**  
 *Final project of Network security*    
-#Feature*  
+*Feature*  
    1. Can choose to encrypt or decrypt
    2. Can choose 5x5 matrix (25 characters (I and J share 1 coordinate)) or 6x6 matrix (26 characters + 10 digits)
    3. Automatically capitalize input characters
