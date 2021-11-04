@@ -35,7 +35,7 @@ namespace MaHoa.UI
         //Kiểm tra lựa chọn loại ma trận của người dùng
         private void radioButton_CheckedChanged(object sender, EventArgs e)
         {
-            //remove old item in matrix
+            //Xóa ma trận 
             this.groupBox1.Controls.Clear();
             var control = ((RadioButton)sender).Text;
             int value = 0;
