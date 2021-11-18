@@ -12,6 +12,6 @@
 *Đồ án cuối kỳ môn An toàn mạng máy tính*  
 *Tính năng*  
   1. Có thể lựa chọn mã hóa hoặc giải mã
-  2. Có thể lựa chọn ma trận 5x5 (25 chữ cái (I và J chung 1 tọa độ)) hoặc ma trận 6x6(26 chữ cái + 10 chữ số)
+  2. Có thể lựa chọn ma trận 5x5 (25 chữ cái (I và J chung 1 tọa độ) hoặc ma trận 6x6(26 chữ cái + 10 chữ số))
   3. Tự động in hoa ký tự nhập vào
   4. Kết quả có tách ra từng cặp ký tự để dễ theo dõi
