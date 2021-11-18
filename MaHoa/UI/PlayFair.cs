@@ -20,14 +20,14 @@ namespace MaHoa.UI
             var control = ((RadioButton)sender).Name;
             if (control == "rdbGiaiMa")
             {
-                lblA.Text = "Cipher Text";
-                lblB.Text = "Plain Text";
+                lblA.Text = "CipherText";
+                lblB.Text = "PlainText";
                 btnExecute.Text = "Decrypt";
             }
             else
             {
-                lblB.Text = "Cipher Text";
-                lblA.Text = "Plain Text";
+                lblB.Text = "CipherText";
+                lblA.Text = "PlainText";
                 btnExecute.Text = "Encrypt";
             }
         }
