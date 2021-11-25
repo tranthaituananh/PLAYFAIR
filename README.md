@@ -2,10 +2,10 @@
 ***
 
 ## English  
-    1. Introduce 
+1. Introduce 
       - Final project of Network security  
       - PlayFair coding program
-    2. Feature  
+2. Feature  
       - Can choose to encrypt or decrypt  
       - Can choose 5x5 matrix (25 characters (I and J share 1 coordinate) or 6x6 matrix (26 characters + 10 digits))  
       - Automatically capitalize input characters  
