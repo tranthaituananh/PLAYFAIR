@@ -1,5 +1,4 @@
 # PlayFair
-***
 
 ## English  
 1. Introduce 
