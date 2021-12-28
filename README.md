@@ -20,7 +20,7 @@
       - Tự động in hoa ký tự nhập vào  
       - Kết quả có tách ra từng cặp ký tự để dễ theo dõi  
       
-## Tác giả  
+## Author (Tác giả)  
     GVHD: Ths Tô Nguyễn Nhật Quang
     Sinh viên thực hiện
     - Ngô Phước An (19520367)
