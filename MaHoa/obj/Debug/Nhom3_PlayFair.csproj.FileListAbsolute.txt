@@ -21,3 +21,15 @@ D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.cspr
 D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.CoreCompileInputs.cache
 D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.exe
 D:\DATA\DOWNLOADS\LAB 3\NT101_Nhom3_PlayFair\MaHoa\obj\Debug\Nhom3_PlayFair.pdb
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\bin\Debug\Nhom3_PlayFair.exe.config
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\bin\Debug\Nhom3_PlayFair.exe
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\bin\Debug\Nhom3_PlayFair.pdb
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.AssemblyReference.cache
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.SuggestedBindingRedirects.cache
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.Properties.Resources.resources
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\MaHoa.UI.Index.resources
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\MaHoa.UI.PlayFair.resources
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.GenerateResource.cache
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.csproj.CoreCompileInputs.cache
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.exe
+C:\Users\trant\Downloads\Dev\PLAYFAIR-PROJECT\MaHoa\obj\Debug\Nhom3_PlayFair.pdb
